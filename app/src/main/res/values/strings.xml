@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tinder</string>
+    <string name="favorite">SuperStar</string>
+    <string name="about_app">About</string>
+    <string name="about_application">About Application</string>
+    <string name="author">Author</string>
+    <string name="my_name">Petrov Alexander</string>
+    <string name="github">GitHub</string>
+    <string name="git_hub">https://github.com/wintezz/SuperHeroesLastWeek</string>
+    <string name="date_of_creation">Date of Creation</string>
+    <string name="data">21.06.22</string>
+    <string name="accept">Accept</string>
+</resources>

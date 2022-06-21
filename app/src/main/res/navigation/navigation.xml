@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/programFragment"
+        android:name="com.alexpetrov.tinder.presentation.fragment.FragmentProgram"
+        android:label="fragment_about_app"
+        tools:layout="@layout/fragment_program" />
+    <fragment
+        android:id="@+id/catFragment"
+        android:name="com.alexpetrov.tinder.presentation.fragment.CatFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.alexpetrov.tinder.presentation.fragment.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main" />
+
+</navigation>
